@@ -48,3 +48,92 @@ class AppShadows {
 
   static List<BoxShadow> none = [];
 }
+
+class AppTheme {
+  static const TextTheme textTheme = TextTheme(
+    // Display styles
+    displayLarge: TextStyle(
+      fontSize: 32,
+      fontWeight: FontWeight.w700,
+      color: AppColors.textPrimary,
+    ),
+    displayMedium: TextStyle(
+      fontSize: 28,
+      fontWeight: FontWeight.w700,
+      color: AppColors.textPrimary,
+    ),
+    displaySmall: TextStyle(
+      fontSize: 24,
+      fontWeight: FontWeight.w700,
+      color: AppColors.textPrimary,
+    ),
+    
+    // Headline styles - for page headers
+    headlineLarge: TextStyle(
+      fontSize: 28,
+      fontWeight: FontWeight.w700,
+      color: AppColors.textPrimary,
+    ),
+    headlineMedium: TextStyle(
+      fontSize: 24,
+      fontWeight: FontWeight.w700,
+      color: AppColors.textPrimary,
+    ),
+    headlineSmall: TextStyle(
+      fontSize: 20,
+      fontWeight: FontWeight.w700,
+      color: AppColors.textPrimary,
+    ),
+    
+    // Title styles - for card titles
+    titleLarge: TextStyle(
+      fontSize: 20,
+      fontWeight: FontWeight.w700,
+      color: AppColors.textPrimary,
+    ),
+    titleMedium: TextStyle(
+      fontSize: 18,
+      fontWeight: FontWeight.w700,
+      color: AppColors.textPrimary,
+    ),
+    titleSmall: TextStyle(
+      fontSize: 16,
+      fontWeight: FontWeight.w600,
+      color: AppColors.textPrimary,
+    ),
+    
+    // Body styles - for regular text
+    bodyLarge: TextStyle(
+      fontSize: 18,
+      fontWeight: FontWeight.w600,
+      color: AppColors.textSecondary,
+    ),
+    bodyMedium: TextStyle(
+      fontSize: 16,
+      fontWeight: FontWeight.w500,
+      color: AppColors.textSecondary,
+    ),
+    bodySmall: TextStyle(
+      fontSize: 14,
+      fontWeight: FontWeight.w500,
+      color: AppColors.textSecondary,
+    ),
+    
+    // Label styles - for small labels, buttons
+    labelLarge: TextStyle(
+      fontSize: 14,
+      fontWeight: FontWeight.w600,
+      color: AppColors.textPrimary,
+    ),
+    labelMedium: TextStyle(
+      fontSize: 13,
+      fontWeight: FontWeight.w500,
+      color: AppColors.textSecondary,
+    ),
+    labelSmall: TextStyle(
+      fontSize: 12,
+      fontWeight: FontWeight.w500,
+      color: AppColors.textSecondary,
+    ),
+  );
+}

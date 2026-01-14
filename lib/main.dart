@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'screens/login.dart';
+import 'constants/app_theme.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,11 +12,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Neumorphic Auth',
+      title: 'Leafy',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.brown,
         fontFamily: 'Quicksand',
+        textTheme: AppTheme.textTheme,
       ),
       home: const LoginScreen(),
     );
